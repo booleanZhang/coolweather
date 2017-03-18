@@ -1,6 +1,8 @@
 package com.example.lovei.coolweather.util;
 
+import android.icu.text.LocaleDisplayNames;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.example.lovei.coolweather.db.City;
 import com.example.lovei.coolweather.db.County;
@@ -17,6 +19,8 @@ import org.json.JSONObject;
  */
 
 public class Utility {
+    public static String TAG="Activity";
+    
     //解析和处理服务器返回的省级数据
     public static boolean handleProvinceResponse(String response){
         if(!TextUtils.isEmpty(response)){

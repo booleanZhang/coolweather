@@ -22,7 +22,7 @@
             android:layout_marginLeft="10dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:background="@mipmap/Left_Arrow_48px"/>
+            android:background="@mipmap/left_arrow_48px"/>
     </RelativeLayout>
     <ListView
         android:id="@+id/list_view"
